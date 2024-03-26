@@ -1,0 +1,156 @@
+/* Algemeen */
+
+body {
+  background-color: darkslategray;
+  font-family: Verdana, sans-serif;
+  font-size:16px;
+  color: white;
+  padding: 5px;
+}
+
+nav {
+  display:inline-block;
+}
+
+section {
+  background-color:inherit;
+  width: 60%;
+  Margin-left: 10%;
+  margin-right: 30%;
+}
+
+a {
+  background-color: slategray;
+  color: white;
+  display: inline-block;
+  width: 150px;;
+  height: fit-content;
+  padding: 5px;
+  text-decoration: none;
+  text-align:center;
+  border-style:none;
+  border-radius: 25px;
+  }
+
+a:hover {
+  background-color: lightgray;
+  color: black;
+  border-style:none;
+  border-color: gold;
+}
+
+
+hr { background-color: orange;
+  height: 10px;
+  border-style: none;
+  border-radius: 50%; 
+}
+
+/* header/footer */
+
+header {
+  background-color:inherit;
+  color:white;
+  padding: 5px;
+  border-radius:20px;
+  box-shadow: -5px -10px 20px orangered;
+}
+
+footer {
+  background-color:inherit;
+  color:white;
+  padding: 5px;
+  border-radius:20px;
+  box-shadow: 5px 10px 40px orangered;
+}
+
+.btn {
+  background-color: #f80b0b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.5 ;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: #04AA6D;
+  opacity: 1;
+  color:black;
+}
+
+input{
+    background-color:whitesmoke;
+    color:black
+
+}
+
+/* Koppen */
+
+h1 {
+    background-color:inherit;
+    color:white;
+    text-align: left;
+}
+
+h2,h3,h4 {
+    background-color:inherit;
+    color:white;
+    width:fit-content;
+}
+
+h5,h6 {
+    color:orangered
+}
+
+/* Inhoud */
+
+img {
+    Width: 150px;
+    Height: 150px;
+    border-style:solid;
+    border-radius: 75px;
+    color: black;
+
+}
+
+table, p { 
+    margin-left: 20%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(122, 111, 84);
+    width: 60%;
+    border: 40px;
+    text-align:left;
+    border-style:none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 30px;
+}
+
+td{
+    margin: 5px;
+
+}
+
+textarea {
+height:200px;
+padding:5px 5px;
+}
+
+input[type="text"], input[type="email"], textarea, select:active {
+  color:blue
+}
+
+input[type="text"], input[type="email"], textarea, select, button {
+display:block;
+margin: 5px 5px;
+width:200px;
+box-sizing: border-box;
+border-radius: 4px;
+box-shadow: none;
+}
